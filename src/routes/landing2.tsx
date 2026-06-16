@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
+import creatorSplitScreen from "@/assets/creator-split-screen.png";
 
 export const Route = createFileRoute("/landing2")({
   head: () => ({
@@ -12,6 +13,8 @@ export const Route = createFileRoute("/landing2")({
   }),
   component: ShortcutPage,
 });
+
+
 
 const mistakes = [
   { n: "MISTAKE #1", title: "The Quantity Over Quality Trap", body: "Pumping out 5 low-effort videos a week trains the algorithm that your channel is low-value. Retention tanks, impressions vanish, and you blame yourself instead of the system." },
@@ -138,7 +141,16 @@ function Hero() {
           </div>
         </div>
 
-        <SplitVisual />
+        <div className="relative flex items-center justify-center">
+          <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_70%_60%_at_50%_50%,rgba(13,148,136,0.25),transparent_70%)]" />
+          <img
+            src={creatorSplitScreen}
+            alt="Creator Split Screen comparison"
+            width={1024}
+            height={768}
+            className="h-auto w-full max-w-[480px] rounded-2xl border border-white/10 shadow-2xl animate-float"
+          />
+        </div>
       </div>
     </section>
   );

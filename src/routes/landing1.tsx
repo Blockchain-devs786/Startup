@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import bookMockup from "@/assets/book-mockup.png";
+import bookMockup from "@/assets/blueprint-mockup-alt.png";
 
 export const Route = createFileRoute("/landing1")({
   head: () => ({
