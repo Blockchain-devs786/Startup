@@ -232,8 +232,8 @@ function DataChart() {
         <div className="glass-panel mt-12 rounded-3xl p-8 md:p-12">
           <div className="flex items-end justify-between gap-4 md:gap-10" style={{ height: 360 }}>
             {chartData.map((d, i) => (
-              <div key={d.year} className="flex flex-1 flex-col items-center gap-3">
-                <div className="flex h-full w-full items-end justify-center gap-2 md:gap-3">
+              <div key={d.year} className="flex flex-1 flex-col items-center gap-3 h-full">
+                <div className="flex w-full flex-1 items-end justify-center gap-2 md:gap-3">
                   <Bar value={d.traditional} max={max} color="slate" delay={i * 120} label={`${d.traditional}`} />
                   <Bar value={d.ai} max={max} color="gold" delay={i * 120 + 60} label={`${d.ai}`} />
                 </div>
