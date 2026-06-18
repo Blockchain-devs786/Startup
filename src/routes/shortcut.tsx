@@ -33,7 +33,7 @@ const tabs = [
     label: "Factory Pipeline",
     title: "The 7-Step Production Factory",
     body: "From idea to published upload in under 90 minutes — without you touching the timeline. Each step has a documented SOP, a template, and a contractor brief.",
-    bullets: ["Ideation → script → voice → visuals → edit → thumb → publish", "Loom-recorded SOP for every stage", "Vetted contractor rate cards included"],
+    bullets: ["Ideation → script → voice → visuals → edit → thumb → publish", "Vetted contractor rate cards included"],
     visual: "pipeline",
   },
   {
@@ -58,9 +58,7 @@ const bundle = [
   "Master Automation System Guide (PDF + workbook)",
   "Bonus #1 — 100+ AI Prompt Vault",
   "Bonus #2 — D.C.M.S Niche Database (Excel)",
-  "Bonus #3 — Thumbnail Template Pack (PSD)",
-  "Bonus #4 — Voice Cloning Cheatsheet",
-  "Bonus #5 — Private Discord Community",
+  "Bonus #3 — Voice Cloning Cheatsheet",
 ];
 
 const faqs = [
@@ -387,7 +385,7 @@ function PricingCard() {
             <p className="mt-3 text-slate-400">One-time payment. Lifetime access. No upsells.</p>
 
             <div className="mt-8 flex items-baseline justify-center gap-4">
-              <span className="font-display text-2xl text-slate-500 line-through">$252.00</span>
+              <span className="font-display text-2xl text-slate-500 line-through">$210.00</span>
               <span className="font-display text-6xl font-extrabold text-teal-400 drop-shadow-[0_0_30px_rgba(20,184,166,0.45)] md:text-7xl">$27.00</span>
             </div>
             <p className="mt-2 text-xs uppercase tracking-widest text-teal-300/80">89% off — launch pricing</p>

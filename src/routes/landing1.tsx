@@ -62,9 +62,7 @@ const blueprintItems = [
 const bonuses = [
   { n: "Bonus #1", name: "100+ AI Prompt Vault", value: "$47" },
   { n: "Bonus #2", name: "Faceless Niche Database (Excel)", value: "$29" },
-  { n: "Bonus #3", name: "Thumbnail Templates (PSD Pack)", value: "$19" },
-  { n: "Bonus #4", name: "AI Voice Cloning Cheatsheet", value: "$37" },
-  { n: "Bonus #5", name: "Private Discord Community Access", value: "$23" },
+  { n: "Bonus #3", name: "AI Voice Cloning Cheatsheet", value: "$37" },
 ];
 
 const testimonials = [
@@ -360,8 +358,8 @@ function BonusStack() {
         <div className="text-center">
           <p className="text-xs uppercase tracking-[0.3em] text-amber-300/80">Ultimate Bonus Stack</p>
           <h2 className="mt-4 font-display text-4xl font-bold md:text-5xl">
-            Five free bonuses worth<br />
-            <span className="text-gradient-gold">$155.00</span> — yours today.
+            Three free bonuses worth<br />
+            <span className="text-gradient-gold">$113.00</span> — yours today.
           </h2>
         </div>
 
@@ -381,7 +379,7 @@ function BonusStack() {
           <div className="grid grid-cols-[110px_1fr_100px] items-center bg-gradient-to-r from-amber-400/10 via-amber-400/15 to-amber-400/10 px-6 py-6">
             <span className="text-sm font-bold uppercase tracking-widest text-amber-300">Total</span>
             <span className="font-display text-lg font-bold">Total Bonus Value</span>
-            <span className="text-right font-display text-2xl font-extrabold text-gradient-gold">$155.00</span>
+            <span className="text-right font-display text-2xl font-extrabold text-gradient-gold">$113.00</span>
           </div>
         </div>
       </div>
